@@ -1,0 +1,125 @@
+.first-hightlight-wrapper {
+    background-image: url("../../images/home/ipodPronew-sm.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ipod-caption {
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-top: 310px;
+}
+
+/* Meadia Query */
+@media (min-width: 768px) {
+    .first-hightlight-wrapper {
+        background-image: url("../../images/home/ipodPronew.jpg");
+        min-height: 692px;
+    }
+
+    .ipod-caption {
+        padding-top: 415px;
+    }
+}
+
+.second-hightlight-wrapper {
+    /* background-image: url("../../../images/home/macbookair-new-sm.jpg"); */
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .second-hightlight-wrapper {
+        min-height: 692px;
+        background-image: url("../../images/home/macbookair-new.jpg");
+    }
+}
+
+.third-hightlight-wrapper {
+    background-image: url("../../images/home/iphone11-pro-bg.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+}
+
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../../images/home/iphone11-colored.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../images/home/apple-blue-logo.jpg");
+    background-color: #165ca9;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+@media (min-width: 768px) {
+    .fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+        margin: 10px 5px 5px 10px;
+    }
+
+    .fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+        margin: 10px 10px 5px 5px;
+    }
+}
+
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../../images/home/central_park_sm.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../images/home/watch.jpg");
+    background-color: #fbfbfd;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+.fifth-heghlight-wrapper .description-wraper {
+    max-width: 450px;
+    margin: 7px auto;
+}
+
+@media (min-width: 768px) {
+    .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+        background-image: url("../../images/home/central_park_lg.jpg");
+        margin: 5px 5px 5px 10px;
+    }
+
+    .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+        margin: 5px 10px 5px 5px;
+    }
+}
